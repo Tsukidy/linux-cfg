@@ -13,6 +13,9 @@ git fetch
 
 # 4. Check out the files directly into your folder
 git checkout -f main
+
+# 5. Grab the submodules
+git submodule update --init --recursive
 ```
 
 ## Useful Submodule Commands:
