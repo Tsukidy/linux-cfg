@@ -2,7 +2,7 @@
 
 Clone including all submodules:
 ```
-git clone --recurse-submodules -j8 https://github.com/Tsukidy/linux-cfg/
+git clone --recurse-submodules -j8 https://github.com/Tsukidy/linux-cfg/ .
 ```
 
 ## Useful Submodule Commands:
