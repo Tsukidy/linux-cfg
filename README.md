@@ -6,7 +6,7 @@ Clone including all submodules:
 git init
 
 # 2. Link it to your GitHub repository
-git remote add origin <your-repo-url>
+git remote add origin https://github.com/Tsukidy/linux-cfg/
 
 # 3. Fetch the data from the remote repository
 git fetch
