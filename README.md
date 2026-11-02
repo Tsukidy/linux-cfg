@@ -12,7 +12,7 @@ git clone --recurse-submodules -j8 https://github.com/Tsukidy/linux-cfg/
 
 If you want your submodules to check out the exact commits recorded by your parent project, run:
 ```
-bash
+#!bash
 git submodule update --init --recursive
 ```
 • --init: Initializes any submodules that haven't been initialized yet.
