@@ -2,7 +2,17 @@
 
 Clone including all submodules:
 ```
-git clone --recurse-submodules -j8 https://github.com/Tsukidy/linux-cfg/ .
+# 1. Initialize a blank local repository in your current folder
+git init
+
+# 2. Link it to your GitHub repository
+git remote add origin <your-repo-url>
+
+# 3. Fetch the data from the remote repository
+git fetch
+
+# 4. Check out the files directly into your folder
+git checkout -f main
 ```
 
 ## Useful Submodule Commands:
